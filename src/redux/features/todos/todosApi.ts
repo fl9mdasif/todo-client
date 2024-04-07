@@ -27,8 +27,6 @@ const todoApi = baseApi.injectEndpoints({
         }
         return {
           url: `/tasks`,
-          // url: `/tasks/${authorId}/getUserTask`,
-
           method: "GET",
           params: params,
         };

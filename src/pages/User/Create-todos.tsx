@@ -12,10 +12,7 @@ import { toast } from "sonner";
 const CreateTodo = () => {
   const user = useSelector(selectCurrentUser);
 
-  const {
-    // isLoading,
-    refetch,
-  } = useGetAllTodosQuery(null);
+  const { refetch } = useGetAllTodosQuery(null);
 
   const [createNewTask] = useCreateNewTaskMutation();
 

@@ -33,8 +33,6 @@ const Todos = () => {
 
   const [params, setParams] = useState<TQueryParam[]>([]);
 
-  // const [page, setPage] = useState(1);
-
   // api's
   const {
     data: todos,
@@ -57,10 +55,6 @@ const Todos = () => {
       }
     });
   }
-
-  // console.log(user);
-  // console.log(matchedTasks.length);
-
   // const metaData = todos?.meta as any;
 
   const [update] = useUpdateMutation();
