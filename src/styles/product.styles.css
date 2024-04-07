@@ -1,0 +1,29 @@
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.product-cover-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .product-cover-photo {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
